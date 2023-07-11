@@ -127,6 +127,7 @@ main{
     background: rgba(229, 84, 115, 0.05);
     margin: 100px 0;
     align-items: center;
+    height: 400px;
 }
 .hotdeal-section{
     text-align: center;
@@ -137,8 +138,11 @@ main{
     font-size: 15px;
 }
 .hotdeal-image{
-    width: 80px;
-    height: 100px;}
+    width: 200px;
+    height: 250px;
+    padding-left: 100px;
+}
+    
 
     /* social section */
     
@@ -156,6 +160,32 @@ main{
     gap: 20px;
     width: 200px;
     height: 300px;
-    padding: 40px 30px 40px 80px;
+    padding: 40px 30px 40px 80px;    
+}
+
+/* subscribe section */
+
+.subscribe-container{
+    background-image: url('../Rectangle\ 9.png');
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 50px;
+    background-size: contain;
+    padding: 80px 100px;    
+}
+.subscribe-section{    
+    text-align: center;
+    /* padding: 50px; */
+    /* margin: 100px  */
+}
+.input-email{
+    border-radius: 8px;
+    background-color: #FFF;
+    border: none;
+    width: 400px;
+    height: 40px;
+    color: rgba(39, 39, 39, 0.60);
     
 }
+
