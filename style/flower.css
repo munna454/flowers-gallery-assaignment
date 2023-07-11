@@ -92,12 +92,11 @@ header{
     text-align: center;
     text-decoration: underline;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 /* support section */
-main{
-    /* max-width: 1140px; */
-    /* margin: 0px auto; */
-}
+
+
 .support-container{
     background-color: rgba(39, 39, 39, 0.05);
     margin-top: 100px;
@@ -119,6 +118,7 @@ main{
     padding: 0px 0px 30px 110px;
     color: rgba(39, 39, 39, 0.80);
     font-size: 15px;
+    cursor: pointer;
 }
 /* hot deal section */
 .hotdeal-container{
@@ -175,9 +175,7 @@ main{
     padding: 80px 100px;    
 }
 .subscribe-section{    
-    text-align: center;
-    /* padding: 50px; */
-    /* margin: 100px  */
+    text-align: center;    
 }
 .input-email{
     border-radius: 8px;
@@ -185,7 +183,31 @@ main{
     border: none;
     width: 400px;
     height: 40px;
-    color: rgba(39, 39, 39, 0.60);
+    color: rgba(39, 39, 39, 0.60);    
+}
+/* footer section */
+.foooter-container{
+    background-color:  #111010;
+    height: 300px;
+}
+.footer-section{
+    text-align: center;
+    padding: 50px;
+    color: white;
     
 }
-
+.footer-title{
+    font-size: 40px;
+}
+.title-info{
+    color: #E55473;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 15px;
+}
+.footer-copyright{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 13px;
+}
+/* end */
